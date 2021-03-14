@@ -72,3 +72,4 @@ console.log(randomPerson);
 
 
 //HOLA NUEVO COMENTARIO EN EL CODIGO
+//XD
