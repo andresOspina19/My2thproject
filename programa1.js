@@ -3,18 +3,18 @@
 
 //Declaración de una Variable
 var numero = 365;
-console.log( numero );
+console.log(numero);
 //Cambio de valor de la variable "numero"
 numero = 5000;
 //Impresión del valor de la variable "Numero" 
-console.log( numero );
+console.log(numero);
 
 //Declaración de una Constante
 const mensaje = "Bienvenido a Ciudad Rio Verde";
 //Comentamos la línea donde tratamos de cambiar el valor de una constante
 //mensaje = "Bienvenido a Ciudad Rio Claro"; 
 //Impresión del valor de la constante "Mensaje"
-console.log( mensaje );
+console.log(mensaje);
 
 //Datos caracteristicos de un coche
 const Marca = "Toyota";
@@ -35,8 +35,8 @@ var numero1 = 5;
 var numero2 = 1500;
 
 //texto
-var texto= "Bicicleta";
-var texto2= "Bienvenido al curso";
+var texto = "Bicicleta";
+var texto2 = "Bienvenido al curso";
 
 //booleanos
 var booleanTrue = true;
@@ -52,9 +52,9 @@ console.log(valorIndefinido);
 
 //tipo de dato arreglo 
 
-const arregloNumeros= [5000, 4200, 30, 15, 10, 10000];
-const arregloNombres= ["Andrés", "María José", "Andrés", "Esnaider"];
-const arregloMixto= [500, "Andrés", 10, "Esnaider"];
+const arregloNumeros = [5000, 4200, 30, 15, 10, 10000];
+const arregloNombres = ["Andrés", "María José", "Andrés", "Esnaider"];
+const arregloMixto = [500, "Andrés", 10, "Esnaider"];
 console.log(arregloMixto[0]);
 
 //Objeto persona

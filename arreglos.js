@@ -1,19 +1,19 @@
 const prompt = require('prompt-sync')();
 
-/*var arregloNumerico= [1,2,3,4,5];
-console.log(arregloNumerico);
-var arregloNombres= ["Luis","Diana","Omar","Paola"];
-console.log(arregloNombres);
-var arregloMixto= [20, 16, ,"Luis", ,"Paola", true, false];
-console.log(arregloMixto); arregloMixto.
-console.log(arregloNombres[0]);*/
+var comprobacion=0;
+console.log("PROGRAMA PARA SUMAR 2 NUMEROS");
 
-/*var numero =  prompt("Ingrese un numero de 3 cifras");
-var centenas= numero.charAt(0);
-var decenas = numero.charAt(1)
-var unidad = numero.charAt(2)
-var resultado = parseInt(unidad+decenas+centenas)
-console.log(resultado)*/
+function esnaider() {
+    var resultado = a + b;
+    return resultado;
+}
 
-var arregloEsnaider = [1,2,3,4,5];
-console.log(arregloEsnaider);
+while (comprobacion===0) {
+    var a = parseInt(prompt("Ingrese el numero A: "));
+    var b = parseInt(prompt("Ingrese el  numero B "));
+
+    console.log(esnaider(a, b));
+    comprobacion= parseInt(prompt("Ingrese 0 si quiere sumar 2 numeros de nuevo.\nIngrese 1 si desea finalizar.\n"));
+}
+
+
